@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true" name="Service-Callout-1">
+    <DisplayName>Service Callout-1</DisplayName>
+    <Properties/>
+    <Request variable="serviceCallout.Request">
+        <Copy source="request">
+            <Headers>
+                <Header name="Content-Type"/>
+                <Header name="Accept"/>
+            </Headers>
+            <FormParams/>
+        </Copy>
+        <Set>
+            <Headers>
+                <Header name="Content-Type">application/x-www-form-urlencoded</Header>
+                <Header name="Authorization">{request.header.Authorization}</Header>
+            </Headers>
+            <Verb>POST</Verb>
+            <FormParams>
+                <FormParam name="grant_type">authorization_code</FormParam>
+                <FormParam name="redirect_uri">https://example.net/your_application</FormParam>
+                <FormParam name="code">{request.header.code}</FormParam>
+            </FormParams>
+        </Set>
+    </Request>
+    <Response>calloutResponse</Response>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>https://dev-404701.okta.com/oauth2/v1/token</URL>
+    </HTTPTargetConnection>
+</ServiceCallout>

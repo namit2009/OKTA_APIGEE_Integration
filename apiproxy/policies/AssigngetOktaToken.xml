@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AssigngetOktaToken">
+    <DisplayName>Assign.getOktaToken</DisplayName>
+    <Properties/>
+    <AssignVariable>
+        <Name>target.copy.pathsuffix</Name>
+        <Value>false</Value>
+    </AssignVariable>
+    <AssignVariable>
+        <Name>target.copy.queryparams</Name>
+        <Value>false</Value>
+    </AssignVariable>
+    <AssignVariable>
+        <Name>username</Name>
+        <Value>0oa241jkziEnGHUyH357</Value>
+    </AssignVariable>
+    <AssignVariable>
+        <Name>password</Name>
+        <Value>a7p6Eo_sRNoNZIQzeo5h5KpaARJ8jTLLysQ746Gp</Value>
+    </AssignVariable>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

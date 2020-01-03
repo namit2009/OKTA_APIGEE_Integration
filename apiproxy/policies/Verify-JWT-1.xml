@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VerifyJWT async="false" continueOnError="false" enabled="false" name="Verify-JWT-1">
+    <DisplayName>Verify JWT-1</DisplayName>
+    <Algorithm>RS256</Algorithm>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <Source>request.formparam.assertion</Source>
+    <PublicKey>
+        <Value ref="id_token.kid"/>
+    </PublicKey>
+    <Subject>namitgarg.1991@gmail.com</Subject>
+    <Issuer>https://dev-404701.okta.com</Issuer>
+    <Audience>0oa241jkziEnGHUyH357</Audience>
+</VerifyJWT>

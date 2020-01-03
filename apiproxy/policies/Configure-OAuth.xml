@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Configure-OAuth">
+    <DisplayName>Configure OAuth</DisplayName>
+    <!-- We are setting the OAuth credentials here to better match the RFC 7523 standard -->
+    <Remove>
+        <Headers>
+            <Header name="Authorization"/>
+        </Headers>
+    </Remove>
+    <Add>
+        <FormParams>
+            <!--<FormParam name="grant_type">authorization_code</FormParam>
+            <FormParam name="redirect_uri">https://example.net/your_application</FormParam>
+            <FormParam name="code">5nzEQ_sfP-BE5QRY_5oJ</FormParam>-->
+            <FormParam name="grant_type">client_credentials</FormParam>
+            <FormParam name="client_id">JyAKyvJLVoFbLIx9ki1oAdKVdcYCfbfi</FormParam>
+            <FormParam name="client_secret">BozecE0IdKGTSind</FormParam>
+            <!--<FormParam name="code">{request.header.code}</FormParam>
+            <FormParam name="redirect_uri">https://example.net/your_application</FormParam>-->
+        </FormParams>
+    </Add>
+    <AssignVariable>
+        <Name>oauth_external_authorization_status</Name>
+        <Value>true</Value>
+    </AssignVariable>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

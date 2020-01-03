@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="okta_int">
+    <Basepaths>/jwt-bearer</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1575517648422</CreatedAt>
+    <CreatedBy>namitgarg.1991@gmail.com</CreatedBy>
+    <Description>okta_int</Description>
+    <DisplayName></DisplayName>
+    <LastModifiedAt>1575622095234</LastModifiedAt>
+    <LastModifiedBy>namitgarg.1991@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:0a5b7c1a1e4954e9b431386f02f28d62f996a113ae34f25ed83784a4c198c260fc35e0be6701254ca6b0a2c2bb001cc2364868f4447b02a79cb9ebcd26f9aec2</ManifestVersion>
+    <Policies>
+        <Policy>AssignMessage-JWT-Parse-Response</Policy>
+        <Policy>AssigngetOktaToken</Policy>
+        <Policy>Basic-Authentication-1</Policy>
+        <Policy>Cache-JWK</Policy>
+        <Policy>Configure-OAuth</Policy>
+        <Policy>Error-on-invalid-token</Policy>
+        <Policy>Extract-JWKS-URI-without-protocol</Policy>
+        <Policy>Extract-JWKS-URI</Policy>
+        <Policy>Fetch-JWKS-URI</Policy>
+        <Policy>Fetch-Modulus-and-Exponent-for-Key-ID</Policy>
+        <Policy>Fetch-OpenID-Configuration</Policy>
+        <Policy>Generate-Access-Token</Policy>
+        <Policy>Get-Key-ID-and-Issuer</Policy>
+        <Policy>JWT-Parse-Verify-RS256-okta</Policy>
+        <Policy>Look-for-cached-JWK</Policy>
+        <Policy>Normalize-Okta-JWKS-variable</Policy>
+        <Policy>Service-Callout-1</Policy>
+        <Policy>Store-JWKS-response-content-in-variable</Policy>
+        <Policy>Verify-JWT-1</Policy>
+        <Policy>VerifyOAuthAccessToken</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>java://guava-18.0.jar</Resource>
+        <Resource>java://json-smart-1.3.jar</Resource>
+        <Resource>java://jwt-signed-edge-callout.jar</Resource>
+        <Resource>java://nimbus-jose-jwt-3.1.2.jar</Resource>
+        <Resource>jsc://Fetch-Modulus-and-Exponent-for-Key-ID.js</Resource>
+        <Resource>jsc://Get-Key-ID-and-Issuer.js</Resource>
+        <Resource>jsc://jwtDecode.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

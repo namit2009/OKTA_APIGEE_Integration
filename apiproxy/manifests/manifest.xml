@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignMessage-JWT-Parse-Response" version="SHA-512:fceddc342ad2fc0e6ab864ae581080b0612a99fe3d6f6beea2c972318d524a06fe6d769ede902a21595b37ff7edf4084fd9c2c5243755491e4d5ed85457f5844"/>
+        <VersionInfo resourceName="AssigngetOktaToken" version="SHA-512:396a8ae7985e95976f8bdd471a684fbb917f2d5af87602cbee4312e5cf99eaef9eaced76d6f957d56ab00350d0ba6ecf859ef9b2aafe2fee402811296d21b05f"/>
+        <VersionInfo resourceName="Basic-Authentication-1" version="SHA-512:e9022ae3c2b5676e7d020eee6ea10b72addfa91691a214f54428c979dcc4cdece81a54c13446f7f7539e1ab64007180f13d9ee5479868368b6821ca56a807d35"/>
+        <VersionInfo resourceName="Cache-JWK" version="SHA-512:a939dc07142283ea6c6b4ea917830d5ed7f376cff2f059249733d6b92ecc5349754747902ec49d0e6c8571237a1f184f40588185285ddc0a78fc024663f16197"/>
+        <VersionInfo resourceName="Configure-OAuth" version="SHA-512:be053bb6bc0e41f23dd0952f41d4c223fe9858cd8f726a8be1b821b05c934efcf2faaaba25fa041f2e8382610d40b321af7d5889746c2855892cc58d66bc0487"/>
+        <VersionInfo resourceName="Error-on-invalid-token" version="SHA-512:59065748ec8d86eec331e62c3c65cf221e6f5bb35b79d18be9a4b34152b3df6616b0d3e50acf7554981bd79b08096ec2a5ea744e4c43a734fd3b0287c09c10e3"/>
+        <VersionInfo resourceName="Extract-JWKS-URI" version="SHA-512:24db30f5316c9f0f12c26ae0f5ef1ecbc0f0acbc58794c3615bc6de9b9d60f48a4db5ae844f41b35c0ccfecb2bc64941321a53ee318c2ad0aaa52429dd5b0b6c"/>
+        <VersionInfo resourceName="Extract-JWKS-URI-without-protocol" version="SHA-512:1fc9b389830530b3bc7e88a7724dd5dd3bf187d20920c0237121b9335db27603b85f9df6475b5af3cfa27e305151b625475429b8b1affab6037812c6da24f9de"/>
+        <VersionInfo resourceName="Fetch-JWKS-URI" version="SHA-512:066cd968ed73b0f5f636ecf8d100d0eaf8fe765bb6b653ab0ffbea9982ff0cb5215c4c238b7af1725955f561a211a768f451580aa8aac7080850d8fec6809009"/>
+        <VersionInfo resourceName="Fetch-Modulus-and-Exponent-for-Key-ID" version="SHA-512:82d2bc39e2dad2d4985545b42750718e151bb42fec71835a2f660d6164cdbb357eb4bf8140b68e82d66ad1829cd03d7567df2a59bc42fec7e1b0a53450697f29"/>
+        <VersionInfo resourceName="Fetch-OpenID-Configuration" version="SHA-512:cea78c7f99c23bd7919a19820b13f0f47312dd6f588179828463572a19a8fe30421bc66ada35ba4f8e6cb874e36e1086459ca221e7204ecb7bfcc3d11132e376"/>
+        <VersionInfo resourceName="Generate-Access-Token" version="SHA-512:a60aefaa9e3af6745a50b571a1076915412eade612a06a1ef6981b7a2d680f0b8f6c9c42b4fe3c044984a23b01f914fe2558a29735df700a24f71761883c69d3"/>
+        <VersionInfo resourceName="Get-Key-ID-and-Issuer" version="SHA-512:cfdabea2b621858b7c305b87b8d0dd56cf81a33df7c182cfe38ea3a66f814f46f4abad452fe56b111e3bd67fa2a4b83ba00d97cdd342470f9ba0b1d8d0f76cef"/>
+        <VersionInfo resourceName="JWT-Parse-Verify-RS256-okta" version="SHA-512:5eeb9ba68a68f4535cbe5b7eaf191d065da8fc8754de6012257a4d4173cc850bbbe5f99400391195d83e040694bed39e0f83cc8b8f1ceedb009b92047ce883d4"/>
+        <VersionInfo resourceName="Look-for-cached-JWK" version="SHA-512:b4d333d3248c96028e47ca01d0345db0f9f2185c4e91376eee963f0930e76fe6877a77c1808dfb230f22123906478d0d4d1dd10115dd5be74497c25e68450637"/>
+        <VersionInfo resourceName="Normalize-Okta-JWKS-variable" version="SHA-512:733fddff6c6f9ba4a1241c9e181bac36d807295f9e45760858e0fc42e9b624031a9db418b1d63393fda54d60fe3f56c93d16bdbb5d56e6e7f7283b2f2090e325"/>
+        <VersionInfo resourceName="Service-Callout-1" version="SHA-512:7d0afafc0395fe2638ab6b879ce4ddbb62a4b168693b21bc4dfcdf7ee048d08e43361d93ac23c20bb8328798927c2b6b51c991be1d4d26204b09d74e39cc9d1c"/>
+        <VersionInfo resourceName="Store-JWKS-response-content-in-variable" version="SHA-512:a5dfb506d3f71e3e86bb5a82e4f717b0d8ae8a59d3b1fc6dbb6d5aa74b3aa406d27e464d7457017e685ad487c27d5e5ad9c005a796f46de07a34cb671daadd53"/>
+        <VersionInfo resourceName="Verify-JWT-1" version="SHA-512:89f2f8fa37e767be22937e955f3a59efcada503da5ee999a0d9c083403ae20f823990f27bf35899f4f3e0301f10d560eb60df3733dc3c2e508699e077ce0719d"/>
+        <VersionInfo resourceName="VerifyOAuthAccessToken" version="SHA-512:2d84862f499a1c47a49f0a599db6fe02eaf83cfb724274572d43b0542a6e26e47c71b6ecb2113129af72244de270d0af577676037305b9618b5146adeefcbbd2"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:7dbf8c69d7e647b84d287b8c6494b97346fd0f0753da046d8edaf30dbdc6d47ed783ee5d0d5e460cf868ae52760932fcbfd9d2268557a19cfa4eb2c6ca9c0b98"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="java://guava-18.0.jar" version="SHA-512:c84ad9f1646b52b6e19f55c3c63936c6dbe59597d53cec6855f85e21ad26f9bc27b0c541b793fab117e2359b1bf3fcd59b222255345fce858bc03cc48cbffd65"/>
+        <VersionInfo resourceName="java://json-smart-1.3.jar" version="SHA-512:5a906348d0220fbe80d6ca4e1a56e417253cebaa5607c1ae235f659ced971e0ed774d04896b7910dd4a7a4dc931d004701b9dcb32ab72835870d7a3bb1b0d5c1"/>
+        <VersionInfo resourceName="java://jwt-signed-edge-callout.jar" version="SHA-512:ec8502cf84137e94e1e30bda46310d2e9ffabcdcfa1c8b2f230b382f93400978143c828d1e6501b68b6aeb15c0ea6bd8429cb043f8d9f9ed521b50363fcb36bd"/>
+        <VersionInfo resourceName="java://nimbus-jose-jwt-3.1.2.jar" version="SHA-512:bc61c52f481073b067a27beb69c32476521a6a797c610806a5cc136d035378c8f2d9dd4c8bf2c421c65fb2687186b92befb9f3a4773be6d4f8766a036d72ca71"/>
+        <VersionInfo resourceName="jsc://Fetch-Modulus-and-Exponent-for-Key-ID.js" version="SHA-512:c5d984887f8dac215bf2055ea15b8ac98fd452b3c8d72c5ec60c9b83efe0e3db87b8a16ff708eb1099d0fba4d29424326649c7c303c10ffc989b4f11193fba60"/>
+        <VersionInfo resourceName="jsc://Get-Key-ID-and-Issuer.js" version="SHA-512:1e89d11aba52f44adfb10542a4b81c305a6db761b4f0e97994a2c067535409ae51d7cc5fc50406589a4a4ea48e65a28c7b960b2094a6d9f375d57ffe92bfc25e"/>
+        <VersionInfo resourceName="jsc://jwtDecode.js" version="SHA-512:3cb8f8f41261127be540df2a06b1537cbd519e6ab0a99d6b93acab63246a8a78d6967d75236ca525cf79e1b37b8c8b68343791841c0fc79b32739d84e1703f77"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>
